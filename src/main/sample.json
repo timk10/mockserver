@@ -1,0 +1,32 @@
+// login - returns id /login
+// signup - /register
+//
+
+
+
+// post /{id}/files -file
+// sample file
+{
+  id: "asdf",
+  requests: [
+    {
+      id : 1,
+      url : "http://www.yahoo.com", // required
+      method : POST, // required
+      data :  {}// required
+    }
+  ],
+  responses: [
+    {
+      id : 1.1,
+      response : {} // required
+    }
+  ],
+}
+
+/*
+id
+createdDate
+updatedDate
+file name
+*/
